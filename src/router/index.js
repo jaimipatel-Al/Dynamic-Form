@@ -12,6 +12,11 @@ const router = createRouter({
       path: '/create-form',
       name: 'create-form',
       component: () => import('../views/CreateForm.vue')
+    },
+    {
+      path: '/add-fields',
+      name: 'add-fields',
+      component: () => import('../views/AddFields.vue')
     }
   ]
 })
